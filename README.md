@@ -1,21 +1,24 @@
 # Lux Testing
 
-Kurtosis-based end-to-end testing infrastructure for Lux Network.
+End-to-end testing infrastructure for Lux Network.
 
-## Overview
+## Docker Images
 
-This repository contains the Docker image and testing framework for running
-comprehensive end-to-end tests against the Lux Network.
-
-## Docker Image
-
+### lux-testing
+Main testing container with Kurtosis support.
 ```bash
 docker pull luxfi/lux-testing:master
 ```
 
+### lux-byzantine
+Byzantine fault tolerance testing container.
+```bash
+docker pull luxfi/lux-byzantine:master
+```
+
 ## Usage
 
-The testing image is used by the luxfi/node CI pipeline to run e2e tests.
+These images are used by the luxfi/node CI pipeline to run e2e tests.
 
 See [luxfi/node](https://github.com/luxfi/node) for more details.
 

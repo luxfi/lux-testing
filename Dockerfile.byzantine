@@ -1,0 +1,10 @@
+# Lux Byzantine Testing Container
+# For Byzantine fault tolerance testing
+FROM golang:1.23-alpine
+
+RUN apk add --no-cache git bash curl jq
+
+WORKDIR /app
+
+# Default entrypoint for byzantine testing
+ENTRYPOINT ["/bin/bash"]
