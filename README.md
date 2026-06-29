@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="lux-testing" width="880"></p>
+
 # Lux Testing
 
 End-to-end testing infrastructure for Lux Network.
